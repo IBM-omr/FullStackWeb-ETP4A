@@ -31,13 +31,7 @@
 			display: flex;
 			flex-direction: row;
 		}
-		.group2{
-			display: flex;
-			flex-direction: row-reverse;
-		}
-		.group2 a{
-			color: black;
-		}
+		
 		.group1 a{
 			color: black;
 		}
