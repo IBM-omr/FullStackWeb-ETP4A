@@ -1,70 +1,182 @@
-		body{
-			padding: 0px;
-			margin: 0px;
-		}
-		.container{
-			height: 90%;
-			padding-top: 10%;
-			padding-bottom: 10%;
-			margin-left: 20%;
-			margin-right: 20%;
-			margin-bottom: 1%;
-		}
-		.main{
-			padding-left: 3%;
-			padding-right: 3%;
-			display: flex;
-			flex-wrap: wrap;
-			align-content: center;
-			text-align: center;
-			height: 100%;
+body, input, button{
+	padding: 5px;
+	margin: 0px;
+	font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+div{
+	display: block;
+}
+.points{
+	margin-top: 2px;
+	height: 35%;
+	width: 12%;
+}
+.container{
+	height: 85%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 1%;
+}
+.main{
+	padding-left: 3%;
+	padding-right: 3%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	text-align: center;
+	height: 100%;
+}
+.container_header{
+	width: 100%;
+	height: 20%;
+}
+.header{
+	padding: 5px;
+	width: 99%;
+	display: flex;
+	flex-direction: row-reverse;
+}
+.container_footer{
+	width: 100%;
+	height: 15%;
+}
+.footer{
+	padding: 5px;
+	width: 99%;
+	height: 15%;
+	display: flex;
+	background: rgb(245, 245, 245);
+}
+.group1{
+	display: flex;
+	flex-direction: row;
+}
+.group1 a{
+	color: black;
+}
+button{
+	border: none;
+}
+a{
+	padding: 0.6%;
+	text-decoration: none;
+}
+.maForm{
+	width: 100%;
+	height: 100%;
+}
+.maForm1{
+	margin: 0px;
+	padding: 0px;
+	width: 22%;
+}
+.divInput{
+	display: flex;
+    z-index: 3;
+    min-height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+.divIco{
+	margin: auto;
+}
+.icoRech {
+	display: inline-block;
+    fill: currentColor;
+    height: 24px;
+	line-height: 24px;
+    position: relative;
+    width: 24px;
+    margin-top: 3px;
+    color: #9aa0a6;
+}
+.divIco1 {
+	display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+    height: 46px;
+}
+.divRech{	
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 14px;
+}
+.divInput2{
+	display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    margin-top: 6px;
+}
+input{
 
-		}
-		.container_header{
-			width: 100%;
-			height: 20%;
-		}
+	font-family: arial,sans-serif;
+    line-height: 22px;
+    margin-bottom: 8px;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+}
 
-		.header{
-			padding: 5px;
-			width: 99%;
-			display: flex;
-			flex-direction: row-reverse;
-		}
-		.container_footer{
-			width: 100%;
-			height: 15%;
+.group_ico{
+	display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+.ico2{
+	flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
 
-		}
-		.footer{
-			padding: 5px;
-			width: 99%;
-			height: 15%;
-			display: flex;
-			background: rgb(245, 245, 245);
-		}
-		.group1{
-			display: flex;
-			flex-direction: row;
-		}
+.micro{
+	height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
 
-		.group1 a{
-			color: black;
-		}
-		input{
-			width: 90%;
-			height: 100%;
-			border-radius: 24px;
-			border: none;
-			background: rgb(245, 245, 245);
-		}
-		button{
-			border: none;
-		}
-		a{
-			padding: 0.6%;
-		}
-		.maForm{
-			width: 100%;
-			height: 100%;
-		}
+.ico3{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.camera{
+	height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
